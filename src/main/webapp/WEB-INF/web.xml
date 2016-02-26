@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <web-app>  
+  
+
+  <servlet-mapping>
+    <servlet-name>myloServlet</servlet-name>
+    <url-pattern>/myloServlet</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>myloServlet</servlet-name>
+    <servlet-class>MyloService</servlet-class>
+</servlet> 
+  
+  <servlet>  
+<servlet-name>PayUServlet</servlet-name>  
+<servlet-class>PayUServlet</servlet-class>  
+</servlet> 
+<servlet-mapping>  
+<servlet-name>PayUServlet</servlet-name>  
+<url-pattern>/PayUServlet</url-pattern>  
+</servlet-mapping> 
+
+ 
+
+  
+</web-app>  
+    
+</root>
