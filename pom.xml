@@ -6,7 +6,6 @@
     <artifactId>MyloPayUKit</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-
     <name>MyloPayUKit</name>
 
     <properties>
